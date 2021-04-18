@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+register,container{
+  background-image: url('https://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Numans', sans-serif;
+}
+
+.register {
+  font-family: 'Numans', sans-serif;
+  padding: 0;
+  height: 100%;
+  align-content: center;
+}
+
+.header {
+  border-bottom: 1px solid lightgray;
+  width:100%;
+}
+
+.header  h3 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+
+.body {
+  margin-top: 20px;
+}
+
+.body form {
+  display: flex;
+  width:100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  gap:10px;
+  width:100%;
+}
+
+.name input {
+  flex:1;
+  outline:none;
+  border:1px solid lightgray;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #F5F6F7;
+}
+
+
+.email_password {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  margin-top: 10px;
+}
+
+.email_password input {
+  flex: 1;
+  outline:none;
+  border:1px solid lightgray;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #F5F6F7;
+}
+
+
+.submit-button {
+  padding: 10px 18px;
+  background-color: #00A400;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  width:200px;
+  align-self: center;
+  outline:none;
+  border:none;
+  border-radius: 10px;
+  color:white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
